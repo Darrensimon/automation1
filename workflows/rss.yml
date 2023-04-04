@@ -1,6 +1,6 @@
 on:
   rss:
-    url:https://feedx.best/rss/economistp.xml
+    url: https://feedx.best/rss/economistp.xml
 jobs:
   request:
     name: Make a HTTP Request
