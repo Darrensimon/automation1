@@ -1,0 +1,20 @@
+on:
+  rss:
+    url:https://feedx.best/rss/infzm.xml
+jobs:
+  request:
+    name: Make a HTTP Request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make a HTTP Request
+        uses: actionsflow/axios@v1
+        with:
+          url: https://cubox.pro/c/api/save/1os58fsty06nmd
+          method: POST
+          body: |
+            {
+              "type":"url",
+              "content":"${{http://www.infzm.com/contents/246561}}", 
+              "title": "${{北京学区房不香了？“东、西、海、朝”小学招生持续减少}}",
+              "folder":"南方周末"
+            }
