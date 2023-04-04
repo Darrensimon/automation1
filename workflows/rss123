@@ -14,7 +14,7 @@ jobs:
           body: |
             {
               "type":"url",
-              "content":"${{http://www.infzm.com/contents/246561}}", 
-              "title": "${{北京学区房不香了？“东、西、海、朝”小学招生持续减少}}",
+              "content":"${{on.rss.outputs.link}}", 
+              "title": "${{on.rss.outputs.title}}",
               "folder":"南方周末"
             }
