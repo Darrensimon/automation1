@@ -1,6 +1,6 @@
 on:
   rss:
-    url:https://feedx.best/rss/infzm.xml
+    url: https://feedx.best/rss/infzm.xml
 jobs:
   request:
     name: Make a HTTP Request
